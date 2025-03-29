@@ -1,6 +1,3 @@
-# Linux-Administration-Automation-Challenge
-
-
 # Linux Administration & Automation Challenge
 
 ## Overview
@@ -43,19 +40,9 @@ Ensure you have the following tools installed:
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/DanielAzeez/Linux-Administration-Automation-Challenge.git
-cd linux-admin-automation
+cd Linux-Administration-Automation-Challenge
 ```
-### 2. Setup Key-Based SSH Authentication
-```bash
-ssh-keygen -t rsa -b 4096
-ssh-copy-id user@target-server-ip
-```
-### 3. Configure Firewall
-```bash
-sudo ufw allow ssh
-sudo ufw enable
-```
-### 4. Run Scripts
+### 2. Run Scripts
 #### a. System Inventory Script
 ```bash
 ./scripts/system_inventory.sh
@@ -105,67 +92,3 @@ sudo ufw enable
 - Implements rotation policy
 - Verifies backup integrity
 
----
-
-## Networking Configuration
-### 1. Static IP Address Setup
-```bash
-sudo nano /etc/network/interfaces
-```
-Example configuration:
-```
-auto eth0
-iface eth0 inet static
-    address 192.168.1.100
-    netmask 255.255.255.0
-    gateway 192.168.1.1
-```
-
-### 2. Firewall Rules
-```bash
-sudo ufw allow 22/tcp  # SSH
-sudo ufw allow 80/tcp  # HTTP
-sudo ufw allow 443/tcp # HTTPS
-sudo ufw enable
-```
-
----
-
-## Scheduled Tasks (Cron Jobs)
-### Setup Scheduled Jobs:
-```bash
-crontab -e
-```
-Example cron jobs:
-```
-0 0 * * 7 /path/to/system_inventory.sh  # Weekly inventory
-0 * * * * /path/to/network_monitor.sh   # Hourly network monitoring
-0 2 * * * /path/to/backup_manager.sh    # Daily backups at 2 AM
-```
-
----
-
-## Troubleshooting
-### 1. Permission Denied on Scripts
-```bash
-chmod +x scripts/*.sh
-```
-### 2. SSH Key Authentication Fails
-Ensure the `~/.ssh/authorized_keys` file exists and has the correct permissions:
-```bash
-chmod 600 ~/.ssh/authorized_keys
-```
-### 3. Firewall Blocks SSH
-```bash
-sudo ufw allow ssh
-```
-
----
-
-## Contributing
-1. Fork the repository.
-2. Create a feature branch.
-3. Commit changes with meaningful messages.
-4. Open a pull request.
-
----
