@@ -14,11 +14,12 @@ This project is designed to demonstrate Linux system administration, automation 
 │   ├── network_monitor.sh   # Monitors network activity
 │   ├── backup_manager.sh    # Handles backups
 │
-├── config/              # Configuration files
+├── config/
+│   ├── crontab.config       # crontab file
 ├── monitoring/          # Monitoring scripts and logs
 ├── documentation/       # Project documentation
-│   ├── NETWORK_DOC.md       # Network topology and security
-│   ├── USAGE_GUIDE.md       # Guide on using the scripts
+│   ├── documentation.md       
+│   ├── screenshots.md       # screenshots during project
 │
 ├── .gitignore           # Ignored files for Git
 ├── README.md            # This documentation file
