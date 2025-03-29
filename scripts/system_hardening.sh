@@ -24,3 +24,6 @@ sudo ufw allow OpenSSH
 sudo ufw enable
 
 echo "System hardening complete!"
+
+
+
