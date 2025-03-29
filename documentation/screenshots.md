@@ -1,4 +1,4 @@
-'''The following images are screenshots of the task's process and they are in no particular order."
+'''The following images are screenshots of the task's process and they are in no particular order.'''
 
 ![Image](https://github.com/user-attachments/assets/bd2b6856-a246-4932-bae2-3f466ece18f3)
 ![Image](https://github.com/user-attachments/assets/bf7f6d20-7f61-4565-946a-799f4723daf1)
