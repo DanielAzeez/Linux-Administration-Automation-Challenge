@@ -1,0 +1,18 @@
+'''The following images are screenshots of the task's process and they are in no particular order."
+
+![Image](https://github.com/user-attachments/assets/bd2b6856-a246-4932-bae2-3f466ece18f3)
+![Image](https://github.com/user-attachments/assets/bf7f6d20-7f61-4565-946a-799f4723daf1)
+![Image](https://github.com/user-attachments/assets/cba679fe-13b1-4b40-a6fb-49fd68b8ee48)
+![Image](https://github.com/user-attachments/assets/48f8bbdf-8eb6-44a9-907d-4ec5ccc58599)
+![Image](https://github.com/user-attachments/assets/deba1447-6966-4e9d-9dc5-18add8f01124)
+![Image](https://github.com/user-attachments/assets/01cbe158-2595-4d66-86af-d3ce89bdcf63)
+![Image](https://github.com/user-attachments/assets/cd897cad-80d5-46b6-946f-018d83dd77a3)
+![Image](https://github.com/user-attachments/assets/26d904a7-f2e5-4c23-a94f-cfd813272986)
+![Image](https://github.com/user-attachments/assets/93d4494a-f609-4320-a59c-ca7f677afe7c)
+![Image](https://github.com/user-attachments/assets/e0b835d8-b214-4b00-a8ad-be4899dd21ce)
+![Image](https://github.com/user-attachments/assets/49f6b20a-07d5-4dca-9896-71cbd0d28ff4)
+![Image](https://github.com/user-attachments/assets/ebc54203-2b13-4498-9db4-5a40da8a2cb7)
+![Image](https://github.com/user-attachments/assets/5ff697d7-a322-4dde-a3dc-b3f16186224f)
+![Image](https://github.com/user-attachments/assets/01753afd-dbf6-4d3f-82a0-4469027a5347)
+![Image](https://github.com/user-attachments/assets/5d1c512f-cfbf-47f4-8b21-55db63475bde)
+![Image](https://github.com/user-attachments/assets/89e90235-05e9-42c5-b401-81c1be856b90)
