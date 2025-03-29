@@ -26,3 +26,6 @@ echo -e "\nRunning Services:"
 systemctl list-units --type=service --state=running | grep ".service"
 
 echo -e "\nInventory Report Completed!"
+
+
+
