@@ -1,7 +1,5 @@
 ### Linux Server Administration Documentation
 
-```markdown
-
 This section outlines the setup of two Linux virtual machines — one Admin Server and one Target Server — to demonstrate core aspects of Linux system administration.
 
 ---
@@ -114,7 +112,3 @@ kill -9 <PID>
 
 > ✅ Both servers were configured using these steps. `admin-vm` manages `target-vm` via secure key-based SSH.
 ```
-
----
-
-Let me know if you'd like these in separate `.md` files or combined into a single `README.md` file with anchors for each section.
