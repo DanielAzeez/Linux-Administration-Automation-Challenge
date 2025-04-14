@@ -111,4 +111,3 @@ kill -9 <PID>
 ---
 
 My servers were configured using these steps. `admin-vm` manages `target-vm` via secure key-based SSH.
-```
