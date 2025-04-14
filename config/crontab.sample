@@ -1,0 +1,9 @@
+# Run system inventory weekly
+0 2 * * 0 /config/cron/weekly_inventory.sh
+
+
+# Run backups daily
+0 1 * * * /config/cron/daily_backup.sh
+
+# Check for system updates daily
+0 3 * * * /config/cron/daily_update_check.sh
